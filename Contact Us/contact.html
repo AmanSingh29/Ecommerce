@@ -1,0 +1,47 @@
+<!-- contact us page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- linking style sheet  -->
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- dynamic header and footer  -->
+    <script>
+          $(function () {
+            $("#header").load("../Header/header.html");
+            $("#footer").load("../Footer/footer.html");
+        });
+    </script>
+</head>
+<body>
+    <header id="header"></header>
+    <main>
+        <h1 id="con-heading">Contact Us</h1>
+        <div class="contact">
+            <div class="image">
+                <!-- image  -->
+                <img src="Contact Image/contact-img.webp" alt="Ecommerce">
+            </div>
+            <div class="contact-form">
+                <!-- contact form  -->
+                <form action="#">
+                    <p>Name:</p>
+                    <input type="text" name="" id="" placeholder="Enter Your Name">
+                    <p>E-mail:</p>
+                    <input type="email" name="" id="" placeholder="Enter Your E-mail">
+                    <p>Message:</p>
+                    <textarea name="" id="" cols="" rows="" placeholder="Enter Your Message"></textarea>
+                    <br>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer id="footer"></footer>
+</body>
+</html>

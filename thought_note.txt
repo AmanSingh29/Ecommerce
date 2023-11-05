@@ -1,0 +1,36 @@
+This is a Ecommerce website to sell clothes.
+There are many pages in it.
+All pages are fully responsive for all devices.
+The header and the footer section is common for all pages which is rendered dynamically using javascript.
+The header section has two parts in the first row there is a logo of the website and then in the center
+there is a search box and a search button and in the end there is a login button and a cart button which
+are linked to their pages.
+In the second row of the header section there are some links of other pages like all products , Men , Women
+Kids , Contact Us link etc. which are linked to their pages.
+In footer section there are some columns in which there are some links whick are redirected to their pages.
+Home page ------
+In home page there is a header section , footer section and the main content of the page.
+There is a main image of the website on it there is a name of the wesite and a slogan related to it.
+After the image section there is a fatured products section in which thee is a slider of products of the website.
+Login Page ------------
+I login page there is a for in which you have to entered e-mail and password.
+On entering admin@admin.com as an e-mail and 123456 as password then there is an alert comes that Login successfull!
+If not then an alert comes Incorrect username or password.
+Cart Page ----------
+In cart page there are two sections in first there are three columns the first one is the image of the product , 
+In the second column there is name of the product , Price of it and a delete button.
+In the third column there is buttons to add and subract the quantity of the products.
+In second section there is the summary of the product and a checkout button.
+Contact Us page ---------
+In contact us page there are two section in the first section there is an image related to the website.
+In the second section there is an  contact form in which you have to enter your email , your name and the message 
+that you want to send.
+Product pages ---------------
+In all pages of products there is a grid in which there are many products with their details , price and 
+add to cart button.
+
+All pages are fully responsive.
+There are some fonts which are imported by the google fonts.
+There are some logos like cart logo , delete logo etc which are imported by font awesome website.
+All buttons have an eye catchy hover effect.
+All links are redirected to their pages.

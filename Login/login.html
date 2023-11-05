@@ -1,0 +1,57 @@
+<!-- login page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- linking style sheet -->
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- dynamin header and footer -->
+    <script>
+        $(function () {
+            $("#header").load("../Header/header.html");
+            $("#footer").load("../Footer/footer.html");
+        });
+        // script to check login details 
+        function check() {
+            var a = document.getElementById("email");
+            var b = document.getElementById("pass");
+            if (a.value === "admin@admin.com" && b.value === "123456") {
+                alert("Login Successful")
+            }
+            else{
+                a.value = "";
+                b.value = "";
+                alert("Incorect Username Or Password!")
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header id="header"></header>
+    <main>
+        <!-- login form  -->
+        <div class="container">
+            <h1>Login</h1>
+            <form action="#">
+                <p>E-mail:</p>
+                <input type="email" name="" id="email" placeholder="Enter your E-mail">
+                <br>
+                <p>Password:</p>
+                <input type="password" name="" id="pass" placeholder="Enter our Password">
+                <br>
+                <button onclick="check()" id="login-btn">Login</button>
+
+            </form>
+        </div>
+    </main>
+    <footer id="footer"></footer>
+</body>
+
+</html>

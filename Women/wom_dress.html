@@ -1,0 +1,71 @@
+<!-- women dress page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women Dresses</title>
+    <!-- linking style sheet  -->
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- dynamic header and footer -->
+    <script>
+        $(function () {
+            $("#header").load("../Header/header.html");
+            $("#footer").load("../Footer/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <header id="header"></header>
+    <main>
+        <div class="products">
+            <!-- women dress products  -->
+            <h5>Women Dresses</h5>
+            <div class="product-items">
+                <div class="product-col 1">
+                    <img src="Women Dress Images/wom1.jpg" alt="">
+                    <strong>Blue Dress</strong>
+                    <p>&#8377;1299</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                </div>
+                <div class="product-col 2">
+                    <img src="Women Dress Images/wom2.jpg" alt="">
+                    <strong>Jump Suit</strong>
+                    <p>&#8377;1199</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                </div>
+                <div class="product-col 2">
+                    <img src="Women Dress Images/wom3.webp" alt="">
+                    <strong>Red Dress</strong>
+                    <p>&#8377;1999</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                </div>
+                <div class="product-col 3">
+                    <img src="Women Skirt Images/wom-skirt3.webp" alt="">
+                    <strong>White Set</strong>
+                    <p>&#8377;899</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                </div>
+                <div class="product-col 4">
+                    <img src="Women Dress Images/wom4.jpg" alt="">
+                    <strong>Long Kurti</strong>
+                    <p>&#8377;1099</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer"></footer>
+</body>
+
+</html>

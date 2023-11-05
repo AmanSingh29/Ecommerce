@@ -1,0 +1,74 @@
+<!-- cart page of the website -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!-- font awesome link   -->
+    <script src="https://kit.fontawesome.com/7781686508.js" crossorigin="anonymous"></script>
+    <!-- linking style sheet -->
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- dynamic header and footer -->
+    <script>
+        $(function () {
+            $("#header").load("../Header/header.html");
+            $("#footer").load("../Footer/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <header id="header"></header>
+    <main>
+        <div class="cart">
+            <div class="items">
+                <h3>Items in cart</h3>
+                <div class="items-content">
+                    <img src="../Men/Men Shirt Images/shirt2.avif" alt="">
+                    <div class="item-res">
+                        <div class="item-name">
+                            <p style="font-weight: 600;">Blue Checked Shirt</p>
+                            <p>&#8377;1599</p>
+                            <i id="trash" class="fa-solid fa-trash"></i>
+                        </div>
+                        <div class="plus-minus">
+                            <i id="minus" class="fa-solid fa-minus" ></i>
+                            <input type="text" style="outline: none;" value="1" readonly>
+                            <i id="plus" class="fa-solid fa-plus" ></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="summary">
+                <h3>Summary</h3>
+                <div class="summary-content">
+                    <div class="summary-row">
+                        <span>cost</span>
+                        <!-- code for rs. logo on the web page -->
+                        <span>&#8377;1599</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Shipping</span>
+                        <span>&#8377;100</span>
+                    </div>
+                    <hr>
+                    <div class="summary-row" style="font-weight: 600;">
+                        <span>Total</span>
+                        <span>&#8377;1699</span>
+                    </div>
+                    <div class="check-btn">
+                        <button>Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer"></footer>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!-- home page of Ecommerce website -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Ecommerce</title>
+  <!-- linking style sheet -->
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fontawesome Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <script src="script.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+  integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- dynamic header and footer -->
+<script>
+  $(function () {
+      $("#header").load("Header/header.html");
+      $("#footer").load("Footer/footer.html");
+  });
+</script>
+</head>
+<body>
+  <header id="header"></header>
+  <div class="background">
+    <div>
+      <h6>Ecommerce</h6>
+    </div>
+    <div>
+      <p>Clothes that talk on behalf of you. Something for every occassion.</p>
+    </div>
+  </div>
+  <!-- slider oof Featured products -->
+  <div class="featureproducts">
+    <div class="wrapper">
+      <h1>Featured Products</h1>
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <ul class="carousel">
+        <!-- cards of products -->
+        <li class="card">
+          <div class="img"><img src="Men/Men Shirt Images/shirt1.avif" alt="img" draggable="false"></div>
+          <h2>Red Check Shirt</h2>
+          <strong>&#8377;1199</strong>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+        </li>
+        <li class="card">
+          <div class="img"><img src="Men/Men Shirt Images/shirt2.avif" alt="img" draggable="false"></div>
+          <h2>Blue Shade Shirt</h2>
+          <strong>&#8377;999</strong>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+        </li>
+        <li class="card">
+          <div class="img"><img src="Men/Men Pants Images/jeansmen.jpg" alt="img" draggable="false"></div>
+          <h2>Blue Jeans</h2>
+          <strong>&#8377;1599</strong>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+        </li>
+        <li class="card">
+          <div class="img"><img src="Men/Men Shirt Images/blazer.jpg" alt="img" draggable="false"></div>
+          <h2>Blue Blazer</h2>
+          <strong>&#8377;6999</strong>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+        </li>
+        <li class="card">
+          <div class="img"><img src="Women/Women Dress Images/wom1.jpg" alt="img" draggable="false"></div>
+          <h2>Green Dress</h2>
+          <strong>&#8377;2799</strong>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+        </li>
+        <li class="card">
+          <div class="img"><img src="Women/Women Dress Images/wom2.jpg" alt="img" draggable="false"></div>
+          <h2>Jump Suit</h2>
+          <strong>&#8377;2100</strong>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+        </li>
+        <li class="card">
+          <div class="img"><img src="Women/Women Dress Images/wom3.webp" alt="img" draggable="false"></div>
+          <h2>Red Dress</h2>
+          <strong>&#8377;1999</strong>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+        </li>
+        <li class="card">
+          <div class="img"><img src="Women/Women Dress Images/wom4.jpg" alt="img" draggable="false"></div>
+          <h2>Long Kurti</h2>
+          <strong>&#8377;799</strong>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+        </li>
+        <li class="card">
+          <div class="img"><img src="Kids/Kids Images/boy1.jpg" alt="img" draggable="false"></div>
+          <h2>White Shirt</h2>
+          <strong>&#8377;1399</strong>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+        </li>
+        <li class="card">
+          <div class="img"><img src="Kids/Kids Images/boy2.jpg" alt="img" draggable="false"></div>
+          <h2>Black Set</h2>
+          <strong>&#8377;2169</strong>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+        </li>
+        <li class="card">
+          <div class="img"><img src="Kids/Kids Images/girl1.webp" alt="img" draggable="false"></div>
+          <h2>Girl Dress</h2>
+          <strong>&#8377;1499</strong>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+        </li>
+        <li class="card">
+          <div class="img"><img src="Kids/Kids Images/girl2.jpg" alt="img" draggable="false"></div>
+          <h2>Top And Frock</h2>
+          <strong>&#8377;1899</strong>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+        </li>
+      </ul>
+      <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+  </div>
+  <footer id="footer"></footer>
+</body>
+
+</html>
